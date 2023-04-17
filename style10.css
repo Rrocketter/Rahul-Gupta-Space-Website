@@ -1,0 +1,157 @@
+body {
+  background:black;
+}
+p {
+  color: whitesmoke; 
+}
+h1 {
+  font-weight: bold;
+  color: black;
+  text-align:center;
+  font-family:helvetica;
+  color:blue;
+  font-size: 45px;justify-content: 
+}
+p1 {
+ color:mediumpurple;
+   font-family:fantasy;
+  text-align:right;
+  font-size:10px;
+}
+
+.button {
+  background-color:cyan;
+  border: none;
+  color: black;
+  padding: 15px 25px;
+  text-align: left;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius:12px;
+  font-family:helvetica;
+  font-weight:800;
+  position:relative;
+  box-shadow: 0 10px 0 blue;
+}
+
+.button:hover {   
+  background-color:grey;
+} 
+img {
+  border-radius:15px;
+  margin: 0px; 
+  width: 250px; 
+  float:right;
+  padding:0px;
+}
+.div1 {
+  background-color: cyan;justify-content: 
+    width: 1400px;justify-content: 
+      border: 0px solid ;justify-content: 
+        padding: 0px;justify-content: 
+          margin: 20px;justify-content: 
+
+}
+h4 {
+  color:beige;
+  text-align: left; 
+  font-family: didot;
+  text-decoration:underline;
+  font-style: oblique; 
+  font-weight:800;
+}
+#top, #bottom, #left, #right {
+  background:linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);;
+  position: fixed;
+}
+#left, #right {
+  top: 0; bottom: 0;
+  width: 5px;
+}
+#left { left: 0; }
+#right { right: 0; }
+
+#top, #bottom {
+  left: 0; right: 0;
+  height: 15px;
+}
+#top { top: 0; }
+#bottom { bottom: 0; }
+@media all and (max-width: 500px) 
+  
+  
+  
+  
+  
+  
+{box-sizing: border-box;}
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup chat - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}

@@ -1,0 +1,80 @@
+body {
+  background: black;
+}
+
+p {
+  color: deepskyblue;
+  font-family:monospace;
+  text-align:center;
+}
+
+h1 {
+  font-weight: bolder;
+  color:white;
+  font-family:fantasy
+}
+
+h2 {
+ font-weight:bolder;
+  color:navajowhite;
+  font-family:tahoma;
+}
+
+p1 {
+font-family:fantasy;
+  color:palevioletred;
+  font-size:16px;
+}
+.button {
+  background-color: coral;
+  border: none;
+  color: black;
+  padding: 15px 25px;
+  text-align: left;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius:12px;
+  box-shadow: 0 10px 0 darkred;
+}
+
+.button:hover {
+  background-color: lime;
+}
+
+.div1 {
+  background-color: cadetblue;justify-content: 
+  width: 1400px;justify-content: 
+  border: 0px solid green;justify-content: 
+  padding: 0px;justify-content: 
+  margin: 20px;justify-content: 
+}
+
+.div2 {
+  background-color: firebrick;justify-content: 
+  width: 1400px;justify-content: 
+  border: 0px solid green;justify-content: 
+  padding: 0px;justify-content: 
+  margin: 20px; justify-content: 
+}
+
+img {
+border-radius:10px;
+}
+
+#top, #bottom, #left, #right {
+  background:linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);;
+  position: fixed;
+}
+#left, #right {
+  top: 0; bottom: 0;
+  width: 5px;
+}
+#left { left: 0; }
+#right { right: 0; }
+
+#top, #bottom {
+  left: 0; right: 0;
+  height: 15px;
+}
+#top { top: 0; }
+#bottom { bottom: 0; }
